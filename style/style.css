@@ -55,13 +55,13 @@ body {
 }
 
 .btn.btnwhite {
-    color: #000;
+    color: #23272a;
     background-color: #fff;
 }
 
 .btn.btnblack {
     color: #fff;
-    background-color: #000;
+    background-color: #23272a;
 }
 
 .btn.btnsmall {
@@ -134,4 +134,13 @@ div.btn {
 
 .btnwhite.btnbig{
     margin-right: 30px;
+}
+
+
+/* main */
+
+
+/* footer */
+footer {
+    background-color: #23272a;
 }
