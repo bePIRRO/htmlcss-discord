@@ -152,14 +152,17 @@ main {
 }
 
 section {
-    /* padding-bottom: 100px; */
+    padding-bottom: 100px;
     display: inline-block;
 }
 
 .bgwave {
-    background-image: url(../img/wave.svg);
-    background-color: #f6f6f6;
-    width: 100vw;
+    background-image: linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.95)), url(../img/wave.svg);
+    background-size: cover;
+    background-repeat: repeat-y;
+    width: 100%;
+    padding-top: 300px;
+    margin-bottom: 200px;
 }
 
 .title {
