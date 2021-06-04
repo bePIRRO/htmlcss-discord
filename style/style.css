@@ -46,6 +46,10 @@ body {
     width: 40%;
 }
 
+.col.w-50 {
+    width: 50%;
+}
+
 .col.w-60 {
     width: 60%;
 }
@@ -96,6 +100,26 @@ body {
     padding: 15px 25px;
 }
 
+.menu,
+.menu li {
+    display: inline-block;
+    font-size: 14px;
+    list-style-type: none;
+}
+
+.menu li{
+    margin: 0 20px;
+}
+
+.menu a {
+    color: #fff;
+}
+
+.menu a:hover,
+.botmenu a:hover{
+    text-decoration: underline;
+}
+
 a {
     text-decoration: none;
     color: #fff;
@@ -124,24 +148,6 @@ header .jumbotron {
 
 #logo {
     vertical-align: middle;
-}
-
-.menu,
-.menu li {
-    display: inline-block;
-    font-size: 14px;
-}
-
-.menu li{
-    margin: 0 20px;
-}
-
-.menu a {
-    color: #fff;
-}
-
-.menu a:hover{
-    text-decoration: underline;
 }
 
 div.btn {
@@ -198,17 +204,14 @@ div>h3 {
     font-size: 26px;
 }
 
+
 /* footer */
 footer {
     background-color: #23272a;
     padding-top: 100px;
-    height: 1000px;
     font-size: 14px;
     line-height: 2em;
-}
-
-footer a:hover{
-    text-decoration: underline;
+    padding-bottom: 100px;
 }
 
 h4 {
@@ -232,5 +235,13 @@ h6 {
     font-size: 20px;
     margin-left: 0;
     padding-top: 20px;
+}
 
+footer li {
+    list-style-type: none;
+}
+
+hr{
+    border-color: #7289da;
+    margin: 30px 0;
 }
