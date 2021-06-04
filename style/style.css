@@ -148,7 +148,6 @@ a {
 
 header {
     background-color: rgb(49,97,244);
-    margin-bottom: 150px;
 }
 
 header .topbar {
@@ -202,13 +201,17 @@ section {
     display: inline-block;
 }
 
+.block {
+    margin-top: 150px;
+}
+
 .bgwave {
     background-image: linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.95)), url(../img/wave.svg);
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
     padding-top: 300px;
-    margin-top: 200px;
+    margin-top: 50px;
 }
 
 .final {
