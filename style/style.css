@@ -8,7 +8,8 @@
 }
 
 body {
-    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 600;
 }
 
 /* utils */
@@ -49,7 +50,7 @@ body {
 }
 
 .btn {
-    border-radius: 20px;
+    border-radius: 40px;
     text-decoration: none;
 }
 
@@ -58,9 +59,23 @@ body {
     background-color: #fff;
 }
 
+.btn.btnblack {
+    color: #fff;
+    background-color: #000;
+}
+
 .btn.btnsmall {
     font-size: 14px;
     padding: 5px 10px;
+}
+
+.btn.btnbig {
+    font-size: 18px;
+    padding: 15px 25px;
+}
+
+h2{
+    font-size: 54px;
 }
 
 /* header */
@@ -80,6 +95,8 @@ header .jumbotron {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position-y: center;
+    padding-top: 100px;
 }
 
 #logo {
@@ -103,4 +120,18 @@ header .jumbotron {
 
 .topmenu a:hover{
     text-decoration: underline;
+}
+
+div.btn {
+    display: inline-block;
+}
+
+.jumbotron p {
+    font-size: 18px;
+    margin: 50px 230px 30px 230px;
+    line-height: 1.6em;
+}
+
+.btnwhite.btnbig{
+    margin-right: 30px;
 }
