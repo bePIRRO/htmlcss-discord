@@ -10,6 +10,7 @@
 body {
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
+    color: #fff;
 }
 
 /* utils */
@@ -62,16 +63,17 @@ body {
     text-decoration: none;
 }
 
-.btn.btnwhite {
+.btn.btnwhite, .btnwhite>a {
     color: #23272a;
     background-color: #fff;
 }
 
-.btn.btnblack {
+.btn.btnblack, .btnblack>a {
     color: #fff;
     background-color: #23272a;
 }
-.btn.btnviolet {
+
+.btn.btnviolet, .btnviolet>a {
     color: #fff;
     background-color: #8ea1e1;
 }
@@ -86,14 +88,14 @@ body {
     padding: 15px 25px;
 }
 
-h2{
-    font-size: 54px;
+a {
+    text-decoration: none;
+    color: #fff;
 }
 
 /* header */
 
 header {
-    color: #fff;
     background-color: rgb(49,97,244);
     margin-bottom: 150px;
 }
@@ -128,7 +130,6 @@ header .jumbotron {
 
 .topbar .topmenu a {
     color: #fff;
-    text-decoration: none;
 }
 
 .topmenu a:hover{
@@ -148,14 +149,19 @@ div.btn {
     margin-right: 30px;
 }
 
-p{
-    line-height: 1.6em;
-    margin-top: 30px;
-}
 
 /* main */
 main {
     color: #23272a;
+}
+
+h2{
+    font-size: 54px;
+}
+
+p{
+    line-height: 1.6em;
+    margin-top: 30px;
 }
 
 section {
@@ -169,7 +175,7 @@ section {
     background-repeat: no-repeat;
     width: 100%;
     padding-top: 300px;
-    margin-bottom: 200px;
+    margin-top: 200px;
 }
 
 .final {
@@ -187,4 +193,29 @@ div>h3 {
 /* footer */
 footer {
     background-color: #23272a;
+    padding-top: 100px;
+    height: 500px;
+    font-size: 14px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+h4 {
+    color: #7289da;
+    font-size: 26px;
+}
+
+h6 {
+    color: #7289da;
+    font-size: 16px;
+}
+
+.lang-ico {
+    width: 25px;
+}
+
+footer li {
+    list-style-type: none;
 }
