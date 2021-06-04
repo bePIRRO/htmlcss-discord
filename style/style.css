@@ -30,12 +30,20 @@ body {
     float: left;
 }
 
+.col.w-15 {
+    width: 15%;
+}
+
 .col.w-20 {
     width: 20%;
 }
 
 .col.w-35 {
     width: 35%;
+}
+
+.col.w-40 {
+    width: 40%;
 }
 
 .col.w-60 {
@@ -118,21 +126,21 @@ header .jumbotron {
     vertical-align: middle;
 }
 
-.topbar .topmenu,
-.topbar .topmenu li {
+.menu,
+.menu li {
     display: inline-block;
     font-size: 14px;
 }
 
-.topbar .topmenu li{
+.menu li{
     margin: 0 20px;
 }
 
-.topbar .topmenu a {
+.menu a {
     color: #fff;
 }
 
-.topmenu a:hover{
+.menu a:hover{
     text-decoration: underline;
 }
 
@@ -194,8 +202,9 @@ div>h3 {
 footer {
     background-color: #23272a;
     padding-top: 100px;
-    height: 500px;
+    height: 1000px;
     font-size: 14px;
+    line-height: 2em;
 }
 
 footer a:hover{
@@ -204,7 +213,9 @@ footer a:hover{
 
 h4 {
     color: #7289da;
-    font-size: 26px;
+    font-size: 30px;
+    padding-right: 250px;
+    padding-bottom: 30px;
 }
 
 h6 {
@@ -216,6 +227,10 @@ h6 {
     width: 25px;
 }
 
-footer li {
+.icons li {
     list-style-type: none;
+    font-size: 20px;
+    margin-left: 0;
+    padding-top: 20px;
+
 }
