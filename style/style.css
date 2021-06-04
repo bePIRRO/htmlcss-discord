@@ -37,12 +37,8 @@ body {
     width: 35%;
 }
 
-.col.w-40 {
-    width: 40%;
-}
-
-.col.w-50 {
-    width: 50%;
+.col.w-60 {
+    width: 60%;
 }
 
 .col.w-65 {
@@ -91,6 +87,7 @@ h2{
 header {
     color: #fff;
     background-color: rgb(49,97,244);
+    margin-bottom: 150px;
 }
 
 header .topbar {
@@ -145,11 +142,28 @@ div.btn {
 
 p{
     line-height: 1.6em;
+    margin-top: 30px;
+    text-align: left;
 }
 
 /* main */
 main {
-    color: #23272aS;
+    color: #23272a;
+}
+
+section {
+    /* padding-bottom: 100px; */
+    display: inline-block;
+}
+
+.bgwave {
+    background-image: url(../img/wave.svg);
+    background-color: #f6f6f6;
+    width: 100vw;
+}
+
+.title {
+    text-align: left;
 }
 
 /* footer */
