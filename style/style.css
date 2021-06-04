@@ -76,7 +76,10 @@ header .topbar {
 }
 
 header .jumbotron {
-    height: 500px;
+    height: 550px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #logo {
@@ -98,3 +101,6 @@ header .jumbotron {
     text-decoration: none;
 }
 
+.topmenu a:hover{
+    text-decoration: underline;
+}
