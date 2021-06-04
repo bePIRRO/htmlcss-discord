@@ -1,0 +1,100 @@
+/* blue; rgb(49,97,244) */
+/* generics */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+}
+
+/* utils */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+}
+
+.col.w-20 {
+    width: 20%;
+}
+
+.col.w-50 {
+    width: 50%;
+}
+
+.col.w-60 {
+    width: 60%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.btn {
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.btn.btnwhite {
+    color: #000;
+    background-color: #fff;
+}
+
+.btn.btnsmall {
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+/* header */
+
+header {
+    color: #fff;
+    background-color: rgb(49,97,244);
+}
+
+header .topbar {
+    height: 80px;
+    line-height: 80px;
+}
+
+header .jumbotron {
+    height: 500px;
+}
+
+#logo {
+    vertical-align: middle;
+}
+
+.topbar .topmenu,
+.topbar .topmenu li {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.topbar .topmenu li{
+    margin: 0 20px;
+}
+
+.topbar .topmenu a {
+    color: #fff;
+    text-decoration: none;
+}
+
