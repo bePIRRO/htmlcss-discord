@@ -71,6 +71,10 @@ body {
     color: #fff;
     background-color: #23272a;
 }
+.btn.btnviolet {
+    color: #fff;
+    background-color: #8ea1e1;
+}
 
 .btn.btnsmall {
     font-size: 14px;
@@ -161,14 +165,24 @@ section {
 
 .bgwave {
     background-image: linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.95)), url(../img/wave.svg);
-    background-size: cover;
-    background-repeat: repeat-y;
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 100%;
     padding-top: 300px;
     margin-bottom: 200px;
 }
 
+.final {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 50px 20px;
+    margin: 0 300px;
+}
 
+div>h3 {
+    font-size: 26px;
+}
 
 /* footer */
 footer {
