@@ -33,12 +33,20 @@ body {
     width: 20%;
 }
 
+.col.w-35 {
+    width: 35%;
+}
+
+.col.w-40 {
+    width: 40%;
+}
+
 .col.w-50 {
     width: 50%;
 }
 
-.col.w-60 {
-    width: 60%;
+.col.w-65 {
+    width: 65%;
 }
 
 .text-center {
@@ -129,16 +137,20 @@ div.btn {
 .jumbotron p {
     font-size: 18px;
     margin: 50px 230px 30px 230px;
-    line-height: 1.6em;
 }
 
 .btnwhite.btnbig{
     margin-right: 30px;
 }
 
+p{
+    line-height: 1.6em;
+}
 
 /* main */
-
+main {
+    color: #23272aS;
+}
 
 /* footer */
 footer {
