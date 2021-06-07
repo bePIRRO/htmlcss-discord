@@ -205,6 +205,14 @@ section {
     margin-top: 150px;
 }
 
+#p1 {
+    padding-top: 30px;
+}
+
+#p2 {
+    padding-top: 20px;
+}
+
 .bgwave {
     background-image: linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.95)), url(../img/wave.svg);
     background-size: contain;
